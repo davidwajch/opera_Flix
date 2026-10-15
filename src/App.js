@@ -5,12 +5,6 @@ import BannerMain from './components/components/BannerMain';
 import Carousel from './components/components/Carousel';
 import Footer from './components/components/Footer';
 
-/* import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './components/BannerMain';
-import Crousel from './components/Carousel';
-import Footer from './components/Footer'; */
-
-/*Shift + Alt + A -> comenta várias linhas ao mesmo tempo*/
 function App() {
   return (
     <div style={{ background: "#141414" }}>
@@ -23,7 +17,6 @@ function App() {
       />
 
       <Carousel
-        /*Duplicaria o primeiro vídeo*/
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
       />
