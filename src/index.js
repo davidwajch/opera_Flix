@@ -5,14 +5,13 @@ import App from './App';
 
 import CadastroVideo from './pages/Home/cadastro/CadastroVideo';
 import Erro404 from './pages/Home/cadastro/Erro404';
+import CadastroCategoria from './pages/Home/cadastro/Categoria';
 
-//SPA
 import { 
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
-import CadastroCategoria from './pages/Home/cadastro/Categoria';
 
 
 

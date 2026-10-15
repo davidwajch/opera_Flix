@@ -14,7 +14,6 @@ function Menu() {
                 OperaFlix
             </Link>
 
-            {/*As link permite a SPA*/}
             <Button as= {Link} className= "ButtonLink" to= "/cadastro/video">
                 Novo Vídeo
             </Button>
